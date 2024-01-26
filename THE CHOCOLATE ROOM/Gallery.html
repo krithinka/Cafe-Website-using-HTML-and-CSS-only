@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE CHOCOLATE ROOM</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://kit.fontawesome.com/045ab10098.js" crossorigin="anonymous"></script>
+    <style>
+         
+.container1{
+    width:90vmin;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border:7px solid rgb(239, 238, 238);
+    border-radius: 8 px;
+    box-shadow: 10px 25px 28px black;
+    overflow:hidden;
+}
+.img-container{
+    width:100%;
+    display:flex;
+    animation:slide 10s infinite;
+}
+img{
+    width:100%
+}
+@keyframes slide{
+    0%{
+        transform:translateX(0);
+    }
+    25%{
+        transform:translateX(0);
+    }
+    30%{
+        transform:translateX(-100%);
+    }
+    50%{
+        transform:translateX(-100%);
+    }
+    55%{
+        transform:translateX(-200%);
+    }
+    75%{
+        transform:translateX(-200%);
+    }
+    80%{
+        transform:translateX(-300%);
+    }
+    100%{
+        transform:translateX(-300%);
+    }
+}
+    </style>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#" class="logo">
+                        <img src="logo.png" alt="" align="left">
+                        <span class="navs-item">Chocolate Room</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="the chocolate room.html">
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                        <span class="nav-item">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="About us.html">
+                         <i class="fa fa-users" aria-hidden="true"></i>
+                        <span class="nav-item">About us</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Gallery.html">
+                        <i class="fa fa-file-image-o" aria-hidden="true"></i>
+                        <span class="nav-item">Gallery</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Feedback.html">
+                        <i class="fa fa-comments" aria-hidden="true"></i> 
+                        <span class="nav-item">Feedback</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/thechocolateroomin/">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <span class="nav-item">Instagram</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+   <div class="container1">
+    <div class="img-container">
+        <img src="c.jpg" alt="" >
+        <img src="b.jpg" alt="" >
+        <img src="e.jpg" alt="" >
+        <img src="1.jpg" alt="" >
+    </div>
+
+   </div>
+    </body>
+    </html>

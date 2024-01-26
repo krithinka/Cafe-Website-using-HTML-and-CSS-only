@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE CHOCOLATE ROOM</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://kit.fontawesome.com/045ab10098.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: cursive;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .feedback-form {
+            width: 400px;
+            padding: 20px;
+            background-color:rgba(63, 18, 18, 0.863);
+            color:rgb(224, 108, 19); 
+        }
+        .feedback-form label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        .feedback-form input,
+        .feedback-form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;   
+        }
+        .feedback-form button {
+            background:rgb(224, 108, 19);
+            color: rgba(83, 48, 48, 0.863);
+            padding: 10px 160px;   
+        }
+        .feedback-form button:hover {
+            background:rgba(241, 206, 206, 0.863);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="#" class="logo">
+                    <img src="logo.png" alt="" align="left">
+                    <span class="navs-item">Chocolate Room</span>
+                </a>
+            </li>
+            <li>
+                <a href="the chocolate room.html">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    <span class="nav-item">Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="About us.html">
+                     <i class="fa fa-users" aria-hidden="true"></i>
+                    <span class="nav-item">About us</span>
+                </a>
+            </li>
+            <li>
+                <a href="Gallery.html">
+                    <i class="fa fa-file-image-o" aria-hidden="true"></i>
+                    <span class="nav-item">Gallery</span>
+                </a>
+            </li>
+            <li>
+                <a href="Feedback.html">
+                    <i class="fa fa-comments" aria-hidden="true"></i> 
+                    <span class="nav-item">Feedback</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/thechocolateroomin/">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <span class="nav-item">Instagram</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="feedback-form">
+        <h2 align="center" >Give your Feedback</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+            <label for="opinion">Enter your opinion:</label>
+            <textarea id="opinion" name="opinion" placeholder="Your Opinion...." rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>

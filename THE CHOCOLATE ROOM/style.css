@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family-fredoka+One&display=swap');
+*{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    box-sizing: border-box;
+   
+}
+body{
+    background-image: url('2.webp');
+    background-size: cover;
+  background-repeat: no-repeat;
+}
+nav{
+    position:absolute;
+    top: 0;
+    bottom:0;
+    height:100%;
+    left:0;
+    background:rgb(19, 5, 0);
+    width:90px;
+    overflow:hidden;
+    transition:width 0.2s linear;
+    box-shadow:0 30px 35px rgb(45, 2, 2);
+}
+.logo{
+    text-align:center;
+    display:flex;
+    margin-left:0px;
+}
+.logo img{
+    width:60px;
+    height:70px;
+}
+a{
+    position:relative;
+    color:azure;
+    font size:14px;
+    display:table;
+    width:300px;
+    padding:30px;
+    font-family:cursive;
+}
+fa{
+    position:relative;
+    width:80px;
+    height:50px;
+    top:14px;
+    font-size: 20px;
+    text-align:center;
+}
+.navs-item{
+    position:relative;
+    top:12px;
+    margin-left:10px;
+}
+.nav-item{
+    position:relative;
+    margin-left:50px;
+}
+a:hover{
+    background:rgba(53, 8, 8, 0.863);
+}
+nav:hover{
+    width:280px;
+    transition :all 0.5s ease;
+}
+.container{
+    height:100%;
+    width:100%;
+    display:flex;
+    justify-content:right;
+    align-items:right;
+    margin-top: 100px;
+}
+.content{
+    color:orange;
+    font-size:25px;
+    font-family:cursive;
+    text-shadow: 0 0 10px rgba(234, 142, 89, 0.8);
+}
+h4{
+    color:orange;
+    font-size:28px;
+    font-family:cursive;
+    width: 420px;
+  height: 50px;
+  background-color: #ab4907; 
+  margin-right: 40px;
+}
+.containers{
+    height:100%;
+    width:100%;
+    display:flex;
+    justify-content:right;
+    align-items:right;
+    margin-top: 100px;
+}
+a.call {
+    margin: 0 auto;
+    color:orange;
+    font-size:20px;
+    font-family:cursive;
+    width: 170px;
+     height:3px;
+  background-color:rgba(189, 84, 13, 0.863); 
+  margin-right: 10%;
+    align-items:right;
+    margin-top: 120px;
+    border-radius: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
